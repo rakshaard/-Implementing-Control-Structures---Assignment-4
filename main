@@ -1,0 +1,237 @@
+# Assignment 4 – Implementing Control Structures
+
+## Overview
+
+This project was developed as part of Assignment 4: Implementing Control Structures. The objective of the assignment is to demonstrate the use of control structures such as conditionals, loops, branching statements, and conflict-resolution logic by creating an Employee Schedule Management System in two different programming languages.
+
+The application manages employee shift scheduling for a company that operates seven days a week and supports Morning, Afternoon, and Evening shifts.
+
+Two implementations have been provided:
+
+* Python
+* C++
+
+Both implementations follow the same scheduling logic and satisfy all assignment requirements.
+
+---
+
+## Assignment Requirements
+
+The application performs the following tasks:
+
+### Input and Storage
+
+* Stores employee names and preferred shifts.
+* Uses appropriate data structures to organize employee preferences.
+
+### Scheduling Logic
+
+* Assigns employees to shifts.
+* Ensures employees work no more than one shift per day.
+* Limits employees to a maximum of five working days per week.
+* Maintains a minimum of two employees per shift.
+
+### Shift Conflict Resolution
+
+* Detects when a preferred shift is unavailable.
+* Assigns employees to alternative shifts when necessary.
+* Searches for available shifts on the same day or future days.
+
+### Output Generation
+
+* Produces a complete weekly schedule.
+* Displays employee assignments for each shift.
+* Provides a summary of employee working days.
+
+---
+
+## Technologies Used
+
+### Python Version
+
+* Python 3.x
+* Standard Library
+* Random Module
+
+### C++ Version
+
+* C++11 or later
+* Standard Template Library (STL)
+* map
+* vector
+* string
+
+---
+
+## Folder Structure
+
+Assignment_4/
+
+│
+
+├── EmployeeSchedule.py
+
+├── EmployeeSchedule.cpp
+
+├── Report.docx
+
+└── README.md
+
+---
+
+## Program Features
+
+The scheduling system includes:
+
+* Employee preference management
+* Weekly schedule generation
+* Conflict detection and resolution
+* Staffing requirement enforcement
+* Random assignment when shifts are understaffed
+* Employee workload tracking
+* Final schedule reporting
+
+---
+
+## How to Run the Python Program
+
+### Step 1
+
+Open a terminal or command prompt.
+
+### Step 2
+
+Navigate to the project folder.
+
+### Step 3
+
+Run the following command:
+
+```bash
+python EmployeeSchedule.py
+```
+
+### Expected Output
+
+The program displays:
+
+* Weekly employee schedule
+* Shift assignments
+* Employee work summary
+
+---
+
+## How to Run the C++ Program
+
+### Step 1
+
+Compile the source code.
+
+Using g++:
+
+```bash
+g++ EmployeeSchedule.cpp -o EmployeeSchedule
+```
+
+### Step 2
+
+Run the executable:
+
+```bash
+./EmployeeSchedule
+```
+
+Windows:
+
+```bash
+EmployeeSchedule.exe
+```
+
+### Expected Output
+
+The program displays:
+
+* Weekly employee schedule
+* Shift assignments
+* Employee work summary
+
+---
+
+## Control Structures Demonstrated
+
+This project demonstrates the use of:
+
+### Conditional Statements
+
+* if
+* else if
+* else
+
+Used for:
+
+* Checking employee availability
+* Verifying work limits
+* Detecting shift conflicts
+
+### Loops
+
+* for loops
+* nested loops
+* while loops
+
+Used for:
+
+* Processing employees
+* Iterating through days and shifts
+* Maintaining staffing requirements
+
+### Branching Logic
+
+Used for:
+
+* Conflict resolution
+* Alternative shift assignment
+* Schedule validation
+
+---
+
+## Results
+
+The application successfully generates a valid weekly schedule while satisfying all assignment requirements.
+
+Key achievements include:
+
+* Maximum five working days per employee
+* One shift per employee per day
+* Minimum staffing requirements maintained
+* Automatic conflict resolution
+* Readable schedule output
+
+---
+
+## Files Included
+
+| File                    | Description           |
+| ----------------------- | --------------------- |
+| EmployeeSchedule.py     | Python implementation |
+| EmployeeSchedule.cpp    | C++ implementation    |
+| Report.docx             | Assignment report     |
+| README.md               | Project documentation |
+
+---
+
+## Author
+
+Name: Raksha Reddy Alimineti
+
+Student ID: [Your Student ID]
+
+Course: [Course Name]
+
+Assignment: Assignment 4 – Implementing Control Structures
+
+---
+
+## Conclusion
+
+This project demonstrates the implementation of control structures in two different programming languages through a practical employee scheduling application. The solution successfully applies loops, conditionals, branching statements, and data structures to solve a real-world scheduling problem while satisfying all assignment requirements.
